@@ -8,7 +8,7 @@ end
 
 group :test do
    gem 'rspec'
-   gem 'webrat'
+#   gem 'webrat'
 end
 
 # Bundle edge Rails instead:
