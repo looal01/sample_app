@@ -1,0 +1,382 @@
+2011/02/09 17:50:05 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_CA 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: Copyright (c) 1998-2009 The Apache Software Foundation 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: Version 2.3.4 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: java.version=1.6.0_22 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) Client VM 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: os.name=Linux 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: os.arch=i386 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: os.version=2.6.35-24-generic 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: Default Locale=English (Canada) 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: JMeter  Locale=English (Canada) 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: JMeterHome=/usr/share/jmeter 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: user.dir  =/home/sage/RubymineProjects/sample_app 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: PWD       =/home/sage/RubymineProjects/sample_app 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: sage-VirtualBox FullName: sage-VirtualBox 
+2011/02/09 17:50:05 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2011/02/09 17:50:09 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2011/02/09 17:50:11 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: No response parsers defined: text/html only will be scanned for embedded resources 
+2011/02/09 17:50:11 INFO  - jmeter.protocol.http.sampler.HTTPSampler: Maximum connection retries = 10 
+2011/02/09 17:50:11 INFO  - jmeter.protocol.http.sampler.HTTPSampler: Connection and read timeouts are available on this JVM 
+2011/02/09 17:50:12 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are END times 
+2011/02/09 17:50:12 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2011/02/10 11:25:10 INFO  - jmeter.protocol.http.proxy.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host 
+2011/02/10 11:25:10 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8080 
+2011/02/10 11:25:10 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy up and running! 
+2011/02/10 11:28:11 INFO  - jmeter.protocol.http.proxy.FormCharSetFinder: Using htmlparser version: 1.6 (Release Build Jun 10, 2006) 
+2011/02/10 11:28:24 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy Server stopped 
+2011/02/10 11:33:03 INFO  - jmeter.services.FileServer: Default base=/home/sage/RubymineProjects/sample_app 
+2011/02/10 11:33:03 INFO  - jmeter.services.FileServer: Set new base=/home/sage/RubymineProjects/sample_app 
+2011/02/10 11:33:04 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2011/02/10 11:33:04 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2011/02/10 11:33:04 INFO  - jmeter.save.SaveService: Using SaveService properties file version 697317 
+2011/02/10 11:33:04 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.1 
+2011/02/10 11:33:04 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2011/02/10 11:33:04 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2011/02/10 11:33:04 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2011/02/10 11:33:04 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2011/02/10 11:33:04 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2011/02/10 11:33:04 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Thread Group. Ramp up = 1. 
+2011/02/10 11:33:04 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2011/02/10 11:33:04 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2011/02/10 11:33:04 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2011/02/10 11:33:04 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2011/02/10 11:33:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2011/02/10 11:33:05 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2011/02/10 11:33:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2011/02/10 11:33:05 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2011/02/10 11:33:06 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2011/02/10 11:33:06 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2011/02/10 11:33:06 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2011/02/10 11:33:06 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2011/02/10 11:33:06 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2011/02/10 11:33:06 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2011/02/10 11:33:08 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2011/02/10 11:33:08 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2011/02/10 11:33:08 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Thread Group. Ramp up = 1. 
+2011/02/10 11:33:08 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2011/02/10 11:33:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2011/02/10 11:33:08 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2011/02/10 11:33:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2011/02/10 11:33:09 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2011/02/10 11:33:09 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2011/02/10 11:33:10 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2011/02/10 11:33:10 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2011/02/10 11:33:10 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2011/02/10 11:33:10 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2011/02/10 11:33:10 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2011/02/10 11:33:10 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2011/02/10 11:33:41 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2011/02/10 11:33:41 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2011/02/10 11:33:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Thread Group. Ramp up = 1. 
+2011/02/10 11:33:41 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2011/02/10 11:33:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2011/02/10 11:33:41 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2011/02/10 11:33:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2011/02/10 11:33:42 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2011/02/10 11:33:42 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2011/02/10 11:33:42 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2011/02/10 11:33:42 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2011/02/10 11:33:43 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2011/02/10 11:33:43 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2011/02/10 11:33:43 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2011/02/10 11:33:43 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2011/02/10 12:45:25 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8080 
+2011/02/10 12:45:25 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy up and running! 
+2011/02/10 12:45:35 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy Server stopped 
+2011/02/10 12:46:11 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 3000 
+2011/02/10 12:46:11 ERROR - jmeter.protocol.http.proxy.ProxyControl: Could not create Proxy daemon java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:102)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:79)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:331)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:376)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:340)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6267)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6032)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4630)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+2011/02/10 12:46:25 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8080 
+2011/02/10 12:46:25 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy up and running! 
+2011/02/10 12:47:22 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8080 
+2011/02/10 12:47:22 ERROR - jmeter.protocol.http.proxy.ProxyControl: Could not create Proxy daemon java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:102)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:79)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:331)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:376)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:340)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6267)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6032)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4630)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+2011/02/10 12:47:27 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8080 
+2011/02/10 12:47:27 ERROR - jmeter.protocol.http.proxy.ProxyControl: Could not create Proxy daemon java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:102)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:79)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:331)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:376)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:340)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6267)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6032)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4630)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+2011/02/10 12:48:14 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8080 
+2011/02/10 12:48:14 ERROR - jmeter.protocol.http.proxy.ProxyControl: Could not create Proxy daemon java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:102)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:79)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:331)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:376)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:340)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6267)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6032)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4630)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+2011/02/10 12:48:19 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 3000 
+2011/02/10 12:48:19 ERROR - jmeter.protocol.http.proxy.ProxyControl: Could not create Proxy daemon java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:102)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:79)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:331)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:376)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:340)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6267)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6032)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4630)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+2011/02/10 12:48:51 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8080 
+2011/02/10 12:48:51 ERROR - jmeter.protocol.http.proxy.ProxyControl: Could not create Proxy daemon java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:102)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:79)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:331)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:376)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:340)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6267)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6032)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4630)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+2011/02/10 12:48:56 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8081 
+2011/02/10 12:48:56 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy up and running! 
+2011/02/10 12:49:36 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy Server stopped 
+2011/02/10 12:49:37 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8081 
+2011/02/10 12:49:37 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy up and running! 
+2011/02/10 12:50:03 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy Server stopped 
+2011/02/10 12:50:22 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8081 
+2011/02/10 12:50:22 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy up and running! 
+2011/02/10 12:50:45 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy Server stopped 
+2011/02/10 12:51:26 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8080 
+2011/02/10 12:51:26 ERROR - jmeter.protocol.http.proxy.ProxyControl: Could not create Proxy daemon java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:102)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:79)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:331)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:376)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:340)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6267)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6032)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4630)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4460)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+2011/02/10 12:51:46 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 8082 
+2011/02/10 12:51:46 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy up and running! 
+2011/02/10 13:03:19 INFO  - jmeter.protocol.http.proxy.Daemon: Proxy Server stopped 
+2011/02/10 13:54:11 INFO  - jmeter.services.FileServer: Set new base=/home/sage/RubymineProjects/sample_app 
+2011/02/10 13:54:12 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2011/02/10 13:54:12 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2011/02/10 13:54:12 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group Thread Group. Ramp up = 1. 
+2011/02/10 13:54:12 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2011/02/10 13:54:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2011/02/10 13:54:12 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2011/02/10 13:54:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2011/02/10 13:54:20 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2011/02/10 13:54:20 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2011/02/10 13:54:20 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2011/02/10 13:54:20 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2011/02/10 13:54:20 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2011/02/10 13:54:20 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2011/02/10 13:54:20 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2011/02/10 13:54:20 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
